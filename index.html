@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b0d10" />
+    <title>FC27 Build Lab</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%235b8cff'/%3E%3Cpath d='M9 22V10h9M9 16h7M20 22V10' stroke='white' stroke-width='3' fill='none' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <script>
+      // Apply the saved theme before first paint (no flash).
+      // A host page (e.g. an embedding viewer) may already have set data-theme: keep it for "system".
+      var r = document.documentElement;
+      if (r.dataset.theme) r.dataset.hostTheme = r.dataset.theme;
+      try {
+        var t = JSON.parse(localStorage.getItem('fc27bl:v1:theme'));
+        if (t === 'light' || t === 'dark') r.dataset.theme = t;
+      } catch (e) {}
+    </script>
+    <script type="module" crossorigin src="./assets/index-DlL50OT3.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C21ZAhGN.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
